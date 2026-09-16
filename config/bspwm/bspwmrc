@@ -1,0 +1,46 @@
+#! /bin/sh
+
+xset -dpms
+xset s off
+
+dbus-update-activation-environment --systemd DISPLAY XAUTHORITY XDG_DATA_DIRS
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+$HOME/.config/scripts/dualmon.sh &
+
+bspc monitor DP-0 -d 1 2 3
+bspc monitor HDMI-0 -d 4 5 6
+
+$HOME/.config/polybar/launch.sh &
+blueman-applet &
+
+$HOME/.config/scripts/set-wallpapers.sh &
+
+picom --config $HOME/.config/picom/picom.conf &
+
+xsetroot -cursor_name left_ptr &
+
+$HOME/.config/scripts/mouse-conf.sh &
+
+dunst &
+
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+bspc config focus_follows_pointer true &
+
+bspc config border_width         5
+bspc config window_gap           12
+bspc config top_padding		 12
+
+bspc config focused_border_color "#706dd1"
+bspc config normal_border_color  "#1f222b"
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+bspc config automatic_scheme alternate
+
+bspc rule -a Galculator state=floating
+bspc rule -a Blueman-manager state=floating
+bspc rule -a TelegramDesktop desktop='^6' follow=on

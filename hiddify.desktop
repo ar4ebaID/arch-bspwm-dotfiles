@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Hiddify
+GenericName=Hiddify
+Comment=Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH, etc.
+Exec=fish -c "pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY /usr/lib/hiddify/hiddify"
+Icon=hiddify
+Terminal=false
+StartupNotify=true
+Categories=Network;
+Keywords=Hiddify;Proxy;VPN;V2ray;Nekoray;Xray;Psiphon;OpenVPN;
