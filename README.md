@@ -2,8 +2,8 @@
 
 A configuration with all the essential packages and themes for stable use as a work or home operating system.
 All packages that will be installed are described in the PACKAGES and PACKAGES-YAY files.
-yay is also installed automatically during the install_dotfiles.sh installation script.
-**P.S. Before running the installation script, be sure to edit the dualmon, nvidia-status, and set-wallpapers scripts to match your configuration!**
+yay is also installed automatically during the install_dotfiles.sh installation script.\
+**P.S. Before running the installation script, be sure to edit the dualmon, nvidia-status, and set-wallpapers scripts to match your configuration!**\
 **P.P.S. After rebooting and logging in, you may need to manually apply the installed system themes via the lxappearance application.**
 
 ------
