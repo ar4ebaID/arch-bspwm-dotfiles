@@ -28,7 +28,9 @@ polkit-gnome
 bluez
 bluez-utils
 bluez-deprecated-tools
-
+ffmpeg
+gst-plugins-good
+gst-libav
 blueman
 feh
 lxappearance
