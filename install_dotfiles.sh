@@ -49,6 +49,6 @@ systemctl enable lightdm.service bluetooth.service blueman-mechanism.service cro
 rm -rf arch-bspwm-dotfiles/
 
 echo
-echo "========================="
-echo " Successful installation "
-echo "========================="
+echo "========================================"
+echo " Successful installation! Please reboot."
+echo "========================================"
