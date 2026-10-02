@@ -44,7 +44,7 @@ sudo chsh -s /usr/bin/fish
 sudo rm /usr/share/applications/hiddify.desktop
 sudo cp arch-bspwm-dotfiles/hiddify.desktop /usr/share/applications/
 
-systemctl enable lightdm.service
+systemctl enable lightdm.service bluetooth.service blueman-mechanism.service cronie.service
 
 rm -rf arch-bspwm-dotfiles/
 
