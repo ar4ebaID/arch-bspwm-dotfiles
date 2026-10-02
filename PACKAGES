@@ -25,6 +25,10 @@ gtk4
 mc
 fastfetch
 polkit-gnome
+bluez
+bluez-utils
+bluez-deprecated-tools
+
 blueman
 feh
 lxappearance
