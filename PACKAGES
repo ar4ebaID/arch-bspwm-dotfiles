@@ -58,6 +58,12 @@ virtualbox
 virtualbox-guest-utils
 virtualbox-host-dkms
 virtualbox-sdk
+gamemode
+lib32-gamemode
+mangohud
+lib32-mangohud
+gamescope
+goverlay
 ttf-martian-mono-nerd
 ttf-dejavu
 ttf-liberation
