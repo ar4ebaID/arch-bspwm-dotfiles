@@ -47,9 +47,11 @@ obsidian
 xarchiver
 shutter
 thunderbird
-transmission-qt
+transmission-gtk
 timeshift
 libreoffice-still
+keepassxc
+torbrowser-launcher
 pycharm-community-edition
 code
 postgresql
